@@ -85,7 +85,7 @@ Estimated Module duration and Sessions:
 - Session V (1h15min): half of session 7 + section 8
 - Session VI (2h): participants' projects
 
-In total (2 sessions/week): 3 weeks + 1 session for participants project = 3.5 weeks
+In total (1 session/week): 6 weeks + 1 session for participants project = 7 weeks
 -->
 
 ## Participants' projects

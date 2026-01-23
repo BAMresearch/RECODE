@@ -24,7 +24,7 @@ We structure the course as follows:
     * A theoretical introduction to a concept. 
     * Hands-on during the concept's explanation. 
     * A final quiz to reinforce the concept learned. 
-* Each Module is presented in **Sessions**, in person and in a room to-be-decided in Unter den Eichen. Each session lasts for 1.5 to 2 hours, so a Module can span through multiple weeks until completion. We plan to present 2 sessions per week. 
+* Each Module is presented in **Sessions**, in person and in a room to-be-decided in Unter den Eichen. Each session lasts for 1.5 to 2 hours, so a Module can span through multiple weeks until completion. We plan to present 1 session per week. 
 * By the end of a Module, participants will work on their software projects with the help of the trainers and other participants. 
 
 RECODE is expected to be repeated annually, as this is oriented as a continuous learning operation for BAM researchers. 
