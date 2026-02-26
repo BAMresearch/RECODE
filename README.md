@@ -35,7 +35,7 @@ Participants are expected to use Visual Studio Code (VSCode) as their Integrated
 
 Participants are also required to download Miniforge3 from the BAM Software Portal. Documentation and setup instructions will be explained at the beginning of the course for standard BAM laptop configurations. 
 
-Participants are encouraged to create an GitHub account and provide their username to the course organizers ([Jose M. Pizarro](https://github.com/JosePizarro3/), [Simon Müller](https://github.com/dudelguy)). They will be invited to the BAMResearch GitHub organization and use the platform to store their projects and learn about git and version control. Participants must accept the invitation prior to the start of the course. 
+Participants are encouraged to create an GitHub account and provide their username to the course organizers ([Jose M. Pizarro](https://github.com/JosePizarro3/), [Simon Müller](https://github.com/dudelguy), [Ingo Breßler](https://github.com/ibresslerBAM)). They will be invited to the BAMResearch GitHub organization and use the platform to store their projects and learn about git and version control. Participants must accept the invitation prior to the start of the course. 
 
 ## Future expansion 
 
