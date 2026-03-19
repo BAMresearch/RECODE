@@ -1,13 +1,13 @@
 # Python+Miniforge+JupyterLab Install and Update Guide for Windows
 
-- For a unprivileged user, without administrative rights
+- This guide should also work for an unprivileged user, without administrative rights.
 - If a window, asking for an (admin) password pops up during installation or when installing any packages, just ignore it by closing the window. The installers should switch to user-mode then.
 
 ## Install
 
 1. Search for Miniforge in the Internetz or download from here directly: https://conda-forge.org/miniforge/
 2. Install Miniforge for the current user only
-3. Create a dedicated environment for Jupyter Lab:
+3. Create a dedicated environment for Jupyter Lab, lets call it *jlab*:
 
         conda create --name jlab
 
@@ -25,7 +25,7 @@
 
 5. Install *nbopen* via *pip* because it is not available in the *conda-forge* channel:
 
-        pip install nbopen jupyter-analysis-tools
+        pip install nbopen
     
     Install the Windows App association for Jupyter Notebooks so that they open once double-clicked:
     
