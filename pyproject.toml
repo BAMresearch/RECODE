@@ -5,6 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+authors = [
+  { name = "Ingo Bressler" },
+  { name = "Simon Mueller" },
+  { name = "Jose M. Pizarro" },
+]
 
 [dependency-groups]
 dev = [
