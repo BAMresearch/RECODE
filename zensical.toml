@@ -9,7 +9,14 @@ nav = [
   { "Get started" = "index.md" },
   { "Module 1 - Foundations of Python coding" = [
     "module1-foundations_of_python_coding/index.md",
-    "module1-foundations_of_python_coding/home.md",
+    "module1-foundations_of_python_coding/study-guide.md",
+    "module1-foundations_of_python_coding/getting-ready.md",
+    "module1-foundations_of_python_coding/python-basics.md",
+    "module1-foundations_of_python_coding/control-flow-and-data-structures.md",
+    "module1-foundations_of_python_coding/working-with-files-and-data.md",
+    "module1-foundations_of_python_coding/code-quality-and-good-practices.md",
+    "module1-foundations_of_python_coding/object-oriented-programming.md",
+    "module1-foundations_of_python_coding/project-organization.md",
   ]},
   { "Module 2 - Git and GitHub for Version Control" = [
     "module2-git_and_github_for_version_control/index.md",

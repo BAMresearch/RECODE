@@ -17,39 +17,35 @@ By the end of this module, participants will be able to:
 
 1. **Quick welcoming to the module** (15min)
 2. **Introductio to Version Control** (15min)
-
-   - What is version control and why developers need it
-   - Branches and tracked history
-   - Semantic versioning and tagging
-   - (Optional) Quiz
+    - What is version control and why developers need it
+    - Branches and tracked history
+    - Semantic versioning and tagging
+    - (Optional) Quiz
 3. **Local Git basics** (1h30min)
-
-   - Initializing a git project in a local directory
-   - Useful commands: *status*, *log*, *branch*, *checkout*
-   - Best practices for commiting changes
-   - Adding tags
-   - The *.git* history folder
-   - (Optional) Quiz
+    - Initializing a git project in a local directory
+    - Useful commands: *status*, *log*, *branch*, *checkout*
+    - Best practices for commiting changes
+    - Adding tags
+    - The *.git* history folder
+    - (Optional) Quiz
 4. **Collaborating in GitHub** (1h30min)
-
-   - Local vs. remote git repositories
-   - GitHub structure: repositories, issues, pull requests, forks
-   - Important configurations: *LFS*, *.gitconfig*, settings
-   - Cloning, pulling, and pushing changes
-   - Resolving merge conflicts (rebasing)
-   - Issues management (super- and sub-issues)
-   - The GitHub workflow
-   - (Optional) Working in another person's repository
-   - (Optional) Quiz
+    - Local vs. remote git repositories
+    - GitHub structure: repositories, issues, pull requests, forks
+    - Important configurations: *LFS*, *.gitconfig*, settings
+    - Cloning, pulling, and pushing changes
+    - Resolving merge conflicts (rebasing)
+    - Issues management (super- and sub-issues)
+    - The GitHub workflow
+    - (Optional) Working in another person's repository
+    - (Optional) Quiz
 5. **Advanced GitHub usage** (1h30min)
-
-   - Ignoring files (*.gitignore*)
-   - GitHub actions: automating checks
-   - Automated testing
-   - Setting up secrets
-   - Pre-commit hooks
-   - Continuous Deployment: publishing a GitHub documentation page (*MkDocs*)
-   - (Optional) Quiz
+    - Ignoring files (*.gitignore*)
+    - GitHub actions: automating checks
+    - Automated testing
+    - Setting up secrets
+    - Pre-commit hooks
+    - Continuous Deployment: publishing a GitHub documentation page (*MkDocs*)
+    - (Optional) Quiz
 
 <!--
 Estimated Module duration and Sessions:

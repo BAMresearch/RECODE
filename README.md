@@ -1,43 +1,112 @@
 # **RECODE** (Crash Course on **RE**search **CO**ding and **DE**velopment)
 
-The RECODE Crash Course is an intensive, project-oriented course designed to train BAM researchers with modern, practical skills in Scientific Software Development. It bridges the gap between scientific work and professional software development practices by focusing on clarity, long-term maintainability, and reusability of research code. 
+RECODE is a project-oriented course designed to train BAM researchers with
+practical skills in scientific software development. It bridges the gap
+between day-to-day research work and modern software development practice by
+focusing on code that is clear, reproducible, maintainable, and reusable.
 
-The course combines fundamental programming learning with state-of-the-art development tools and practices. It focuses on developing Python-based interfaces. This enables participants to quickly learn to design, build, test, document, and publish their own applications or packages from start to finish. 
+The course combines Python programming fundamentals with tools and workflows
+that help participants design, build, document, and share research software.
+By the end of the course, participants should feel more confident structuring
+their code professionally, using version control, working with modern AI coding
+assistants, and packaging their work for others.
 
-By the end of the course, participants will understand how to structure research code professionally, use version control and git, effectively use LLM code assistants, and follow modern Software Development standards. 
+## Course contents
 
-**Course contents**
-- [Module 1 – Foundations of Python Coding](module1-foundations_of_python_coding.md)
-- [Module 2 – Git and GitHub for Version Control](module2-git_and_github_for_version_control.md)
-- [Module 3 – Using Large Language Models (LLMs) for Coding Assistance](module3-using_large_language_models_for_coding_assistance.md)
-- [Module 4 – Packaging and Distributing Python Projects](module4-packaging_and_distributing_python_projects.md)
-- Module 5 – Productive Development Environment
+- [Module 1 - Foundations of Python Coding](docs/module1-foundations_of_python_coding/index.md)
+- [Module 2 - Git and GitHub for Version Control](docs/module2-git_and_github_for_version_control/index.md)
+- [Module 3 - Using Large Language Models (LLMs) for Coding Assistance](docs/module3-using_large_language_models_for_coding_assistance/index.md)
+- [Module 4 - Packaging and Distributing Python Projects](docs/module4-packaging_and_distributing_python_projects/index.md)
+- Module 5 - Productive Development Environment
+
+## Developing the documentation locally
+
+The documentation site is built with **Zensical** and configured through
+[`zensical.toml`](zensical.toml). The source pages live in [`docs/`](docs/).
+
+### Prerequisites
+
+- Python 3.12
+- [`uv`](https://docs.astral.sh/uv/)
+
+### Install development dependencies
+
+```bash
+uv sync --dev
+```
+
+### Start a local preview server
+
+Run:
+
+```bash
+uv run zensical serve
+```
+
+or directly:
+
+```bash
+zensical serve
+```
+
+Zensical will print a local URL in the terminal. Open that address in your
+browser to preview the site while editing pages in `docs/`.
+
+### Build the static site
+
+```bash
+uv run zensical build
+```
+
+Use the build command before publishing or when you want to confirm that the
+navigation and Markdown pages render cleanly.
 
 ## Learning approach
 
-RECODE follows a hands-on and project-oriented approach. Participants are encouraged to bring their laptops and their own software projects or ideas to develop during the course. For those without a project, a registry of example projects based on open-source resources will be available. 
+RECODE follows a hands-on and project-oriented approach. Participants are
+encouraged to bring their laptops and, ideally, a real project or idea they
+would like to develop during the course. For those without a project, example
+topics based on open-source resources can be provided.
 
-We structure the course as follows: 
+We structure the course as follows:
 
-* The course is divided in **Modules**. Each module, focus on a specific topic for Software Development. 
-* Each of the Modules is divided into **Sections**. Each section contains: 
-    * A theoretical introduction to a concept. 
-    * Hands-on during the concept's explanation. 
-    * A final quiz to reinforce the concept learned. 
-* Each Module is presented in **Sessions**, in person and in a room to-be-decided in Unter den Eichen. Each session lasts for 1.5 to 2 hours, so a Module can span through multiple weeks until completion. We plan to present 1 session per week. 
-* By the end of a Module, participants will work on their software projects with the help of the trainers and other participants. 
+- The course is divided into **modules**, each centered on one software
+  development topic.
+- Each module is divided into **sections** with short theory, live examples,
+  hands-on exercises, and optional quizzes.
+- Modules are presented in **sessions** of roughly 1.5 to 2 hours, typically
+  one session per week.
+- After each module, participants should have time to work on their own
+  projects with support from trainers and peers.
 
-RECODE is expected to be repeated annually, as this is oriented as a continuous learning operation for BAM researchers. 
+RECODE is intended as a repeatable training format that can evolve over time
+and support continuous learning at BAM.
 
-## Technical requirements 
+## Technical requirements
 
-Participants are expected to use Visual Studio Code (VSCode) as their Integrated Development Environment (IDE). Basic usage of the IDE interface (opening files, opening a workspace folder, running scripts, using the integrated terminal) will be explained at the beginning of the course. More advanced features (debugging, environment configuration, extensions, etc.) will be introduced later in the course. VSCode is available on the BAM Software Portal. 
+Participants are expected to use Visual Studio Code (VS Code) as their primary
+Integrated Development Environment (IDE). Basic usage of the interface
+(opening folders, running scripts, using the integrated terminal) will be
+covered early in the course, while more advanced features are introduced later.
+VS Code is available through the BAM Software Portal.
 
-Participants are also required to download Miniforge3 from the BAM Software Portal. Documentation and setup instructions will be explained at the beginning of the course for standard BAM laptop configurations. 
+Participants are also asked to install Miniforge3. Setup guidance for standard
+BAM laptop configurations is included in the course material.
 
-Participants are encouraged to create an GitHub account and provide their username to the course organizers ([Jose M. Pizarro](https://github.com/JosePizarro3/), [Simon Müller](https://github.com/dudelguy), [Ingo Breßler](https://github.com/ibresslerBAM)). They will be invited to the BAMResearch GitHub organization and use the platform to store their projects and learn about git and version control. Participants must accept the invitation prior to the start of the course. 
+Participants are encouraged to create a GitHub account and share their username
+with the course organizers:
 
-## Future expansion 
+- [Jose M. Pizarro](https://github.com/JosePizarro3/)
+- [Simon Müller](https://github.com/dudelguy)
+- [Ingo Breßler](https://github.com/ibresslerBAM)
 
-The RECODE course modules are designed to grow in the future. Due to its modular nature, other advanced topics can be added to the course contents. This could include _Working with Linux Environments_, _Docker Containerization_, _Scientific Instrumentation Software Development_, etc. This will allow BAM researchers to deepen their development expertise. 
+Participants can then be invited to the BAMResearch GitHub organization to
+store projects and practice version control workflows during the course.
 
+## Future expansion
+
+The RECODE modules are designed to grow over time. Future additions could
+include topics such as _working with Linux environments_,
+_Docker containerization_, or _scientific instrumentation software
+development_, allowing BAM researchers to deepen their software development
+expertise step by step.

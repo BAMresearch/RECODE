@@ -1,173 +1,58 @@
 ---
-icon: lucide/rocket
+icon: lucide/graduation-cap
 ---
 
-# Get started
+# Welcome to RECODE
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+RECODE is BAM's practical training course on research coding and scientific
+software development. The course is designed for coworkers who want to move
+from "scripts that work once" to code that is easier to understand, reuse,
+share, and maintain.
 
-## Commands
+The documentation site is the shared home for the course. You can use it
+before a session to prepare your environment, during the sessions as a
+reference, and afterwards as a compact handbook for your own projects.
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+## What you will learn
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+The current course roadmap is organized into four learning modules:
 
-## Examples
+1. **Foundations of Python Coding**
+   Learn how to set up a working Python environment, write basic scripts and
+   notebooks, use Python data structures and control flow, work with files and
+   tabular data, and apply good coding habits from the start.
+2. **Git and GitHub for Version Control**
+   Learn how to track changes, collaborate safely, use branches and pull
+   requests, and connect local development with GitHub workflows.
+3. **Using LLMs for Coding Assistance**
+   Learn how to work productively with modern AI coding assistants, write
+   better prompts, review generated code critically, and build safe workflows
+   around tools such as ChatGPT, Codex, and GitHub Copilot.
+4. **Packaging and Distributing Python Projects**
+   Learn how to turn research code into a reusable Python project with a clear
+   structure, dependencies, documentation, and a distribution strategy.
 
-### Admonitions
+## How to use this site
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+- Start with **Module 1** if you are new to Python or want a structured
+  refresher.
+- Use the navigation on the left to jump between module overviews and topic
+  pages.
+- Treat the pages as living course notes: they summarize the key ideas, common
+  commands, and recommended practices used throughout RECODE.
 
-!!! note
+## Who this course is for
 
-    This is a **note** admonition. Use it to provide helpful information.
+RECODE is aimed at BAM researchers and colleagues who:
 
-!!! warning
+- want a clearer foundation in Python and coding workflows,
+- need practical guidance instead of purely theoretical programming material,
+- work with scientific data, notebooks, scripts, or small tools,
+- want to collaborate more confidently with others on research software.
 
-    This is a **warning** admonition. Be careful!
+## What to expect from the format
 
-### Details
-
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
-
-??? info "Click to expand for more info"
-
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
-
-## Code Blocks
-
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
-
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
-
-greet("Python")
-```
-
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
-
-    Code annotations allow to attach notes to lines of code.
-
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
-
-## Content tabs
-
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
-
-=== "Python"
-
-    ``` python
-    print("Hello from Python!")
-    ```
-
-=== "Rust"
-
-    ``` rs
-    println!("Hello from Rust!");
-    ```
-
-## Diagrams
-
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+The course combines short theory blocks with live demonstrations and hands-on
+practice. Participants are encouraged to bring their own questions, examples,
+and project ideas. By the end of the course, the goal is not only to know the
+tools, but to feel comfortable using them in day-to-day work.
