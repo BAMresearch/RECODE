@@ -1,0 +1,17 @@
+[project]
+name = "recode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+authors = [
+  { name = "Ingo Bressler" },
+  { name = "Simon Mueller" },
+  { name = "Jose M. Pizarro" },
+]
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.40",
+]
