@@ -19,48 +19,6 @@ assistants, and packaging their work for others.
 - [Module 4 - Packaging and Distributing Python Projects](docs/module4-packaging_and_distributing_python_projects/index.md)
 - Module 5 - Productive Development Environment
 
-## Developing the documentation locally
-
-The documentation site is built with **Zensical** and configured through
-[`zensical.toml`](zensical.toml). The source pages live in [`docs/`](docs/).
-
-### Prerequisites
-
-- Python 3.12
-- [`uv`](https://docs.astral.sh/uv/)
-
-### Install development dependencies
-
-```bash
-uv sync --dev
-```
-
-### Start a local preview server
-
-Run:
-
-```bash
-uv run zensical serve
-```
-
-or directly:
-
-```bash
-zensical serve
-```
-
-Zensical will print a local URL in the terminal. Open that address in your
-browser to preview the site while editing pages in `docs/`.
-
-### Build the static site
-
-```bash
-uv run zensical build
-```
-
-Use the build command before publishing or when you want to confirm that the
-navigation and Markdown pages render cleanly.
-
 ## Learning approach
 
 RECODE follows a hands-on and project-oriented approach. Participants are
@@ -110,3 +68,46 @@ include topics such as _working with Linux environments_,
 _Docker containerization_, or _scientific instrumentation software
 development_, allowing BAM researchers to deepen their software development
 expertise step by step.
+
+## Developing the documentation locally
+
+The documentation site is built with **Zensical** and configured through
+[`zensical.toml`](zensical.toml). The source pages live in [`docs/`](docs/).
+
+### Prerequisites
+
+- Python 3.12
+- [`uv`](https://docs.astral.sh/uv/)
+
+### Install development dependencies
+
+```bash
+uv sync --dev
+```
+
+### Start a local preview server
+
+Run:
+
+```bash
+uv run zensical serve
+```
+
+or directly:
+
+```bash
+zensical serve
+```
+
+Zensical will print a local URL in the terminal. Open that address in your
+browser to preview the site while editing pages in `docs/`.
+
+### Build the static site
+
+```bash
+uv run zensical build
+```
+
+Use the build command before publishing or when you want to confirm that the
+navigation and Markdown pages render cleanly.
+
