@@ -24,34 +24,39 @@ setup you can trust.
 
 For a standard BAM setup, make sure you have:
 
-1. VS Code installed.
-2. Miniforge installed for your user account.
-3. A GitHub account ready for the course.
-4. The VS Code Python extension installed.
+1. **Miniforge** installed for your user account.
+2. **VS Code** installed, with additional extensions (which install more extensions they depend on, 9 in sum):
+    - Python extension by Microsoft
+    - Jupyter extension by Microsoft
+4. A **GitHub account** ready for the course.
 
 If BAM-specific installers are distributed through the software portal, prefer
 those versions unless the course team recommends otherwise.
 
 ## Create a dedicated Python environment
 
-Using one environment per project or purpose is a healthy default. For example,
-you can create a Jupyter-focused environment like this:
+Using one environment per project or purpose is a healthy default. There are mainly two options:
+
+### venv
+
+A virtual environment `venv` which is purely Python-based. It comes as a module in each Python installation and it can manage multiple environments (in local folders) with an independet set of packages in each. But they are bound to the Python version, venv is running with. This is the minimal and fast variant.
+
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate
+  ```
+
+### Conda
+
+A `conda` environment, managed by **MiniForge**. It has the benefit to manage more than just Python packages. It can install system application with binaries (non-Python based) as well and it lets you install different Python versions in each environment which is great when dealing with older code or apps.
+
+For this course, Miniforge and `conda` are a practical starting point. You create a Jupyter-focused environment like this:
 
 ```bash
 conda create --name jlab python=3.12
 conda activate jlab
 conda install jupyterlab notebook numpy scipy pandas matplotlib openpyxl lmfit
 ```
-
-You may also see `venv` in Python projects:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-For this course, Miniforge and `conda` are a practical starting point because
-they handle Python and scientific packages well.
 
 ## Configure VS Code
 
