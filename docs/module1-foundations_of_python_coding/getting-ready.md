@@ -97,15 +97,50 @@ notebook support in VS Code will all become much more consistent.
 
 ## Start using Jupyter Notebooks
 
-Notebooks are useful when you want to:
+Notebooks are an interactive computing environment used mainly for data analysis, scientific computing, and coding education. They let you write code, run it, and see the results — all in one document. A Jupyter Notebook combines three things in a single file:
+
+* **Code** (usually Python, but also R, Julia, etc.)
+* **Text explanations** (formatted with Markdown)
+* **Output** (charts, tables, images, printed results)
+
+This makes them extremely useful for explaining your work step by step.
+A notebook is made up of **cells**:
+
+* **Code cells** → where you write and run code
+* **Markdown cells** → where you write text, notes, or explanations
+
+When you run a code cell, the output appears directly below it.
+
+### Example
+
+A simple Python example in a notebook:
+
+```python
+x = 5
+y = 3
+x + y
+```
+
+Output:
+
+```
+8
+```
+
+→ You can immediately see the result without needing a separate output window.
+
+Notebooks are saved as `.ipynb`. This file contains all code, text, and outputs.
+
+### When to use Notebooks
+
+They are useful when you want to:
 
 - experiment with code step by step,
 - mix explanation and code in one place,
 - show results such as tables or plots immediately,
 - teach interactively during a live session.
 
-They are excellent for exploration, but not always the best final form for
-production code. A useful rule of thumb is:
+They are excellent for exploration, but not always the best final form for production code. A useful rule of thumb is:
 
 - use notebooks to explore, explain, and prototype,
 - move stable logic into scripts or modules once it starts to grow.
