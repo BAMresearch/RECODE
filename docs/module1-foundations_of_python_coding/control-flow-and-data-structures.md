@@ -161,7 +161,7 @@ while count < 3:
     count += 1
 ```
 
-### Pitfal: accidentally treat a string as a sequence of items
+### Pitfall: accidentally treat a string as a sequence of items
 
 ```python
 def print_items(items):
