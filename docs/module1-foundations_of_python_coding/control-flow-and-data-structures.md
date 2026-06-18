@@ -39,7 +39,17 @@ The specified indices define the first element to include until the element spec
 
 ```python
 print(samples[1:3])
-  ['glass', 'silica']
+    ['glass', 'silica']
+```
+
+It is also easy to [generate a list with range](https://docs.python.org/3/library/stdtypes.html#range):
+
+```python
+list(range(5))
+    [0, 1, 2, 3, 4]
+
+list(range(2,17,3))
+    [2, 5, 8, 11, 14]
 ```
 
 ### Tuples
@@ -63,7 +73,7 @@ The above tuple can only be changed by composing a new tuple using the '+' opera
 
 ```python
 dimensions[:1] + (3,) + dimensions[2:]
-(12.0, 3, 1.5)
+    (12.0, 3, 1.5)
 ```
 
 Where `(3,)` is a tuple with a single element and `dimensions[:1]` indicates a slice of the *dimensions* tuple from the beginning until the first element (but not the second which has index 1). While `dimensions[2:]` will give a slice of the tuple from the third element (index 2) until the end.
@@ -262,10 +272,11 @@ Real code should fail in understandable ways. A basic `try` / `except`
 structure helps:
 
 ```python
+text = "42.2"  # some user input
 try:
-    value = int("42")
+    value = (text)
 except ValueError:
-    print("Conversion failed")
+    print("Converting '{text}' failed!)"
 ```
 
 Use exception handling to react to expected failure modes, such as invalid
@@ -283,8 +294,12 @@ def factorial(n):
     return n * factorial(n - 1)
 ```
 
-It is worth understanding the idea, even if loops remain the more common tool
-in daily work.
+It is worth understanding the idea, even if loops remain the more common tool in daily work.
+
+### [Invocation Tree Debugger](https://invocation-tree.com/)
+
+A very helpful tool for visualizing the recursion mechanism with your custom code: enter it the code box right-hand side and press *play*.
+It's source and some more example code is on [its GitHub project page](https://github.com/bterwijn/invocation_tree).
 
 ## Practice ideas
 
