@@ -13,6 +13,12 @@ The documentation site is the shared home for the course. You can use it
 before a session to prepare your environment, during the sessions as a
 reference, and afterwards as a compact handbook for your own projects.
 
+In this course, we focus on the Python programming language. It is a beginner-friendly programming language that is widely used in science and engineering. It is popular because its code is easy to read and write, making it a great starting point for learning programming.
+
+In materials science, Python helps researchers and students work with experimental data, create visualizations, and run simulations to better understand material properties. It also supports powerful tools for data analysis and machine learning, which are increasingly important in modern research.
+
+While this course teaches Python, the fundamental concepts for programming, project organization and quality control, are transferable to many other programming languages, even though the exact syntax and details may differ.
+
 ## What you will learn
 
 The current course roadmap is organized into four learning modules:
