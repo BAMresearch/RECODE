@@ -30,11 +30,13 @@ Choose names that describe the meaning of the value, not just its type.
 ## Basic data types
 
 Some common [numeric data types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) in Python are:
+
 - `int` (*Integer*) for whole numbers
 - `float` (*Floating point*) for decimal numbers
 - `complex` for complex numbers
 
 And there is also:
+
 - [`bool` (*Boolean*) for simple binary values](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool) `True` / `False`
 - and [`str` (*String*) for text](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str).
 
