@@ -1,3 +1,3 @@
-# Editorial notes for files of session 3 in module 1
+## Supplemental files of Session 3
 
-- Most parts of the NB from session 2 can be used here as well, depends on timing, how far we get in sess2 after setting up the env
+- [Session3 - Core Syntax and Control Flow.ipynb](Session3%20-%20Core%20Syntax%20and%20Control%20Flow.ipynb) - Jupyter Notebook used in Session 3
