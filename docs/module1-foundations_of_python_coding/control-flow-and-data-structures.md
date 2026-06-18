@@ -59,7 +59,7 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 
-The above tuple can only be changed by composing a new tuple using the '+' operator:
+The above tuple can only be changed by composing a new tuple using the '+' operator for *concatenation*:
 
 ```python
 dimensions[:1] + (3,) + dimensions[2:]
@@ -78,7 +78,8 @@ text[3:9]
     'lo Wor'
 ```
 
-Strings also can not by changed directly but need to be rebuild:
+Strings also can not by changed directly but need to be rebuild.
+Concatenation works with them as well:
 
 ```python
 text[:5] + "-" + text[6:]
