@@ -86,6 +86,50 @@ text[:5] + "-" + text[6:]
     'Hello-World'
 ```
 
+There is [a very comprehensive library of methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
+that can be used with strings and come in handy very often:
+
+```python
+# Removing whitespace, aka. 'trimming'
+text = "  hello  "
+text.strip()   # "hello"
+text.lstrip()  # "hello  "
+text.rstrip()  # "  hello"
+
+# Splitting strings
+text = "apple,banana,orange"
+text.split(",")  # ["apple", "banana", "orange"]
+
+# Joining strings
+words = ["apple", "banana", "orange"]
+", ".join(words)  # "apple, banana, orange"
+
+# Checking contents
+text = "hello123"
+text.isalpha()   # False (contains numbers)
+text.isdigit()   # False
+text.isalnum()   # True
+
+# Finding substrings
+text = "hello world"
+"world" in text  # True
+text.find("world")  # 6
+text.startswith("hello")  # True
+text.endswith("world")    # True
+```
+
+#### Formatting
+
+So called *f-strings* are a very powerful tool for composing messages and for debugging:
+
+```python
+name = "Bob"
+age = 23
+
+print(f"My name is {name} and I am {age} years old.")
+print(f"{name=}, {age=}")
+```
+
 **Note:** Sometimes, trouble may be caused by strings accidentally used with code designed for sequences:
 It will often just work but will not give the expected result.
 We come back to that later, after *loops*.
@@ -101,6 +145,8 @@ elements = {"Fe", "C", "Mn"}
 ```
 
 They are very close to sets in the math and support operations like [*intersection*, *union* and *difference*](https://docs.python.org/3/library/stdtypes.html#frozenset.issuperset).
+
+**Performance:** For very large sets of values, sets are faster than lists since the fundamental internal are different: Instead of checking each item, they use a [hash function](https://en.wikipedia.org/wiki/Hash_function) to get the memory location of values in the same way [a hash table (`dict`) does](https://en.wikipedia.org/wiki/Hash_table).
 
 ### Dictionaries
 
