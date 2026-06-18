@@ -27,7 +27,7 @@ is_valid = True
 Choose names that describe the meaning of the value, not just its type.
 `sample_name` is better than `x`, and `is_valid` is better than `flag1`.
 
-## Core data types
+## Basic data types
 
 Some common Python data types are:
 
@@ -80,9 +80,10 @@ print(calc_square(12))
 Functions are one of the first major steps from "typing commands" to "writing
 programs."
 
-## Basic imports
+## Module imports
 
-Python's standard library already contains many helpful tools:
+Importing further modules extend the functionality.
+[Python's standard library](https://docs.python.org/3/py-modindex.html) already contains many helpful tools:
 
 ```python
 import math
@@ -90,12 +91,12 @@ import math
 print(math.sqrt(81))
 ```
 
-External libraries add more capabilities:
+External libraries, such as [NumPy](https://numpy.org/doc/stable/user/whatisnumpy.html), add more capabilities:
 
 ```python
 import numpy
 
-print(numpy.sqrt(49))
+print(numpy.sinc(49))
 ```
 
 This is a common pattern in scientific Python: start with core language
