@@ -1,30 +1,47 @@
 # Module 2 - Git and GitHub for Version Control
 
-This module introduces the princples and practical use of version control, focusing on GitHub.
-Participants will learn how to track changes in code, collaborate efficiently using GitHub, and integrate version control into their development processes.
+This module introduces the principles and practical use of version control,
+with Git and GitHub as the main tools. Participants learn how to track code
+changes, collaborate safely, review work, and connect local development with
+shared workflows on GitHub.
 
-## Learning Outcome
+## Learning outcomes
 
 By the end of this module, participants will be able to:
 
-* Understand what is version control
-* Setting up GitHub repositories for their software projects
-* Collaborate using GitHub (exploring other repos, branching, forking, opening issues, opening pull requests and asking for review)
-* Define automations for checks, testing, pre-commits
-* Manage repositories efficiently using Git in VSCode
+- explain what version control is and why it matters,
+- create and configure GitHub repositories for software projects,
+- use Git locally to track, inspect, and organize changes,
+- collaborate through branches, issues, pull requests, and reviews,
+- understand how local repositories relate to remote repositories on GitHub,
+- configure lightweight project automation such as checks and documentation
+  publishing,
+- use Git confidently from VS Code while still understanding the core concepts.
+
+## Study pages
+
+Use the pages below as the student-facing handbook for this module:
+
+- [Study guide](study-guide.md)
+- [Version control foundations](version-control-foundations.md)
+- [Local Git basics](local-git-basics.md)
+- [GitHub collaboration](github-collaboration.md)
+- [Issues, pull requests, and code review](issues-pull-requests-and-code-review.md)
+- [Automation and GitHub Pages](automation-and-github-pages.md)
+- [Common mistakes and safe recovery](common-mistakes-and-safe-recovery.md)
 
 ## Sections
 
 1. **Quick welcoming to the module** (15min)
-2. **Introductio to Version Control** (15min)
+2. **Introduction to Version Control** (15min)
     - What is version control and why developers need it
     - Branches and tracked history
     - Semantic versioning and tagging
     - (Optional) Quiz
 3. **Local Git basics** (1h30min)
     - Initializing a git project in a local directory
-    - Useful commands: *status*, *log*, *branch*, *checkout*
-    - Best practices for commiting changes
+    - Useful commands: *status*, *log*, *branch*, *switch*
+    - Best practices for committing changes
     - Adding tags
     - The *.git* history folder
     - (Optional) Quiz
@@ -44,8 +61,18 @@ By the end of this module, participants will be able to:
     - Automated testing
     - Setting up secrets
     - Pre-commit hooks
-    - Continuous Deployment: publishing a GitHub documentation page (*MkDocs*)
+    - Continuous deployment: publishing a documentation site with GitHub Pages
     - (Optional) Quiz
+
+## What is new in this handbook
+
+Compared with the short module outline above, this handbook also adds:
+
+- practical guidance for using Git through VS Code,
+- screenshot placeholders for GitHub pages and workflows that are easier to
+  explain visually,
+- a recovery page for common beginner mistakes such as committing to the wrong
+  branch, handling merge conflicts, or synchronizing with the remote.
 
 <!--
 Estimated Module duration and Sessions:
