@@ -1,8 +1,6 @@
 # Project Organization for Small Python Projects
 
-As soon as code grows beyond a single short script, structure starts to matter.
-Good organization makes later work on testing, version control, packaging, and
-collaboration much easier.
+As soon as code grows beyond a single short script, structure starts to matter. Good organization makes later work on testing, version control, packaging, and collaboration much easier.
 
 ## A simple starting structure
 
@@ -22,8 +20,7 @@ my-project/
 └── pyproject.toml
 ```
 
-Not every project needs every folder immediately, but the structure helps you
-separate concerns.
+Not every project needs every folder immediately, but the structure helps you separate concerns.
 
 ## Useful distinctions
 
@@ -49,9 +46,7 @@ Each format has a role:
 - **scripts** are good for repeatable command-style workflows,
 - **packages** are good for reusable logic shared across files or people.
 
-A strong habit is to move stable logic out of notebooks and into Python modules.
-That keeps notebooks shorter and makes the useful parts easier to test and
-reuse.
+A strong habit is to move stable logic out of notebooks and into Python modules. That keeps notebooks shorter and makes the useful parts easier to test and reuse.
 
 ## Why this matters for later modules
 
@@ -61,5 +56,4 @@ The topics in later RECODE modules build on this foundation:
 - AI coding assistants are more helpful in structured projects.
 - Packaging becomes much easier when code already has a sensible layout.
 
-Project organization is therefore not an "advanced extra." It is part of making
-your work easier to maintain from the beginning.
+Project organization is therefore not an "advanced extra." It is part of making your work easier to maintain from the beginning.

@@ -1,4 +1,4 @@
-# Module 2 - Git and GitHub for Version Control
+# Module 2 &mdash; Git and GitHub for Version Control
 
 This module introduces the principles and practical use of version control,
 with Git and GitHub as the main tools. Participants learn how to track code

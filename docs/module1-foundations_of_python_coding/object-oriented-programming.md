@@ -1,7 +1,6 @@
 # Introduction to Object-Oriented Programming
 
-Object-oriented programming (OOP) is one way to organize code when data and the
-operations on that data belong closely together.
+Object-oriented programming (OOP) is one way to organize code when data and the operations on that data belong closely together.
 
 ## What is a class?
 
@@ -40,17 +39,13 @@ OOP is useful when:
 - the same operations apply repeatedly to similar entities,
 - you want to represent real concepts such as samples, instruments, or models.
 
-For example, a `Measurement`, `Experiment`, or `Spectrum` can often be modeled
-cleanly as an object.
+For example, a `Measurement`, `Experiment`, or `Spectrum` can often be modeled cleanly as an object.
 
 ## Abstraction
 
-Abstraction means presenting a simpler interface while hiding lower-level
-details. A good class lets the user focus on what the object does, not on every
-implementation detail.
+Abstraction means presenting a simpler interface while hiding lower-level details. A good class lets the user focus on what the object does, not on every implementation detail.
 
-That does **not** mean every piece of code needs to become a class. Sometimes a
-simple function is the better design.
+That does **not** mean every piece of code needs to become a class. Sometimes a simple function is the better design.
 
 ## OOP vs. functional style
 
@@ -59,10 +54,10 @@ In practice, Python projects often use a mix:
 - **functions** for straightforward transformations,
 - **classes** for stateful or domain-oriented structures.
 
-Module 1 should leave students with a balanced intuition:
+Thus,
 
 - use classes when they make the model clearer,
-- avoid classes when they only add ceremony.
+- avoid classes when they only cover one functional implementation.
 
 ## Design habits for beginners
 

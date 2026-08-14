@@ -1,7 +1,6 @@
 # Code Quality and Good Practices
 
-Writing code that works once is only the first step. In research settings,
-clarity and reproducibility matter just as much as correctness.
+Writing code that works once is only the first step. In research settings, clarity and reproducibility matter just as much as correctness.
 
 ## Reproducible code starts with small habits
 
@@ -12,8 +11,7 @@ Good research code should make it easy to answer questions such as:
 - Which environment was the code run in?
 - Can someone else rerun this later?
 
-You do not need a large framework to improve reproducibility. Small habits
-already help a lot:
+You do not need a large framework to improve reproducibility. Small habits already help a lot:
 
 - keep scripts focused,
 - use meaningful names,
@@ -22,8 +20,7 @@ already help a lot:
 
 ## Style and readability
 
-PEP 8 is the main Python style guide. The most important beginner takeaway is
-simple: prefer readable code over clever code.
+PEP 8 is the main Python style guide. The most important beginner takeaway is simple: prefer readable code over clever code.
 
 That usually means:
 
@@ -42,8 +39,7 @@ def load_measurements(path):
     """Load measurement data from a CSV file into a DataFrame."""
 ```
 
-Use comments more sparingly. Good comments explain **why** something is done,
-not just **what** the next line obviously does.
+Use comments more sparingly. Good comments explain **why** something is done, not just **what** the next line obviously does.
 
 ## Typing
 
@@ -56,13 +52,11 @@ def load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 ```
 
-You do not need to annotate everything from day one, but adding types to public
-functions and important data flows is a good habit.
+You do not need to annotate everything from day one, but adding types to public functions and important data flows is a good habit.
 
 ## Logging and errors
 
-Avoid silent failures. If something goes wrong, your program should give useful
-feedback.
+Avoid silent failures. If something goes wrong, your program should give useful feedback.
 
 ```python
 import logging
@@ -73,13 +67,11 @@ logger = logging.getLogger(__name__)
 logger.info("Loading measurement data")
 ```
 
-Combine this with clear exceptions when inputs are invalid or files are
-missing.
+Combine this with clear exceptions when inputs are invalid or files are missing.
 
 ## Testing
 
-Tests are a way to protect expected behavior. Even a very small test can be
-valuable:
+Tests are a way to protect expected behavior. Even a very small test can be valuable:
 
 ```python
 def calc_square(x):
@@ -89,8 +81,7 @@ def test_calc_square():
     assert calc_square(4) == 16
 ```
 
-The lesson for Module 1 is not to master testing frameworks yet. It is to
-start thinking in terms of verifiable behavior.
+Testing will be further explained in Module 4.
 
 ## Tools you may encounter
 
@@ -100,8 +91,7 @@ Later in the course or in real projects, you may see tools such as:
 - `mypy` for static type checking,
 - `pytest` for automated tests.
 
-You do not need all of them immediately, but it helps to know what problem each
-tool is trying to solve.
+You do not need all of them immediately, but it helps to know what problem each tool is trying to solve.
 
 ## A practical checklist
 

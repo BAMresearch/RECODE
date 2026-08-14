@@ -1,20 +1,32 @@
 # Python Basics
 
-Python is widely used because it is readable, versatile, and supported by a
-large ecosystem of scientific and general-purpose libraries. In RECODE, we use
-it as the common language for examples, exercises, and small research tools.
+Python is widely used because it is readable, versatile, and supported by a large ecosystem of scientific and general-purpose libraries. 
 
 ## Ways to run Python
 
 You will encounter Python in three common forms:
 
-- **Interactive terminal** for quick experiments,
-- **scripts** for repeatable code stored in `.py` files,
-- **notebooks** for teaching, exploration, and mixed text/code workflows.
+- **Interactive terminal** for quick experiments.
+- **As Python scripts** for repeatable code stored in `.py` files.
+- **Jupyter Notebooks** for teaching, exploration, and mixed text/code workflows in `.ipynb` files.
 
 Each one is useful. What matters is recognizing when to use which format.
 
-## Variables and names
+Throughout this module, we will mainly use Jupyter Notebooks as a quick way of following the Module's content and hands-on exercises. The [introductory notebook in the repository](https://github.com/BAMresearch/RECODE/blob/main/docs/module1-foundations_of_python_coding/module1s1/Session1%20-%20Basic%20examples.ipynb) shows a useful teaching pattern:
+
+- write a small code cell,
+- run it immediately,
+- inspect the result,
+- modify one thing and run it again.
+
+That feedback loop is especially effective when learning basics such as:
+
+- printing values,
+- checking data types,
+- comparing lists and arrays,
+- plotting simple results.
+
+## Variables, values, and naming
 
 Variables store values so you can reuse them later:
 
@@ -34,9 +46,6 @@ Some common [numeric data types](https://docs.python.org/3/library/stdtypes.html
 - `int` (*Integer*) for whole numbers
 - `float` (*Floating point*) for decimal numbers
 - `complex` for complex numbers
-
-And there is also:
-
 - [`bool` (*Boolean*) for simple binary values](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool) `True` / `False`
 - and [`str` (*String*) for text](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str).
 
@@ -45,6 +54,12 @@ You can inspect a value's type with:
 ```python
 value = 3.14
 print(type(value))
+```
+
+which will return:
+
+```
+<class 'float'>
 ```
 
 ## Expressions and operators
@@ -105,22 +120,6 @@ print(numpy.sinc(49))
 This is a common pattern in scientific Python: start with core language
 features, then bring in specialized libraries when the problem requires them.
 
-## Notebooks as a learning tool
-
-The introductory notebook in the repository shows a useful teaching pattern:
-
-- write a small code cell,
-- run it immediately,
-- inspect the result,
-- modify one thing and run it again.
-
-That feedback loop is especially effective when learning basics such as:
-
-- printing values,
-- checking data types,
-- comparing lists and arrays,
-- plotting simple results.
-
 ## Practice ideas
 
 Try the following on your own:
@@ -129,5 +128,3 @@ Try the following on your own:
 2. Write a function that converts Celsius to Kelvin.
 3. Import `math` and calculate a square root.
 4. Print a sentence that includes both text and a number.
-
-The point is not complexity. The point is building fluency with the syntax.
