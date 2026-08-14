@@ -1,9 +1,14 @@
 # Module 2 &mdash; Git and GitHub for Version Control
 
-This module introduces the principles and practical use of version control,
-with Git and GitHub as the main tools. Participants learn how to track code
-changes, collaborate safely, review work, and connect local development with
-shared workflows on GitHub.
+This module introduces the principles and practical use of version control, with Git and GitHub as the main tools. Participants learn how to track code changes, collaborate safely, review work, and connect local development with shared workflows on GitHub.
+
+Module 2 takes your own code or the code generated from Module 1 and adds history, collaboration, and shared workflows. The main goal is to make changes traceable and teamwork safer, whether you work alone today or with others later. Git and GitHub are power tools to control history of code, so they are mainly about reducing risk. Good version control habits help you:
+
+- recover from mistakes,
+- understand what changed and why,
+- discuss changes before they are merged,
+- avoid losing work,
+- collaborate without overwriting each other.
 
 ## Learning outcomes
 
@@ -14,15 +19,13 @@ By the end of this module, participants will be able to:
 - use Git locally to track, inspect, and organize changes,
 - collaborate through branches, issues, pull requests, and reviews,
 - understand how local repositories relate to remote repositories on GitHub,
-- configure lightweight project automation such as checks and documentation
-  publishing,
+- configure lightweight project automation such as checks and documentation publishing,
 - use Git confidently from VS Code while still understanding the core concepts.
 
 ## Study pages
 
 Use the pages below as the student-facing handbook for this module:
 
-- [Study guide](study-guide.md)
 - [Version control foundations](version-control-foundations.md)
 - [Local Git basics](local-git-basics.md)
 - [GitHub collaboration](github-collaboration.md)
@@ -32,20 +35,20 @@ Use the pages below as the student-facing handbook for this module:
 
 ## Sections
 
-1. **Quick welcoming to the module** (15min)
-2. **Introduction to Version Control** (15min)
+1. **Quick welcoming to the module** (~15min)
+2. **Introduction to Version Control** (~15min)
     - What is version control and why developers need it
     - Branches and tracked history
     - Semantic versioning and tagging
     - (Optional) Quiz
-3. **Local Git basics** (1h30min)
+3. **Local Git basics** (~1h30min)
     - Initializing a git project in a local directory
     - Useful commands: *status*, *log*, *branch*, *switch*
     - Best practices for committing changes
     - Adding tags
     - The *.git* history folder
     - (Optional) Quiz
-4. **Collaborating in GitHub** (1h30min)
+4. **Collaborating in GitHub** (~1h30min)
     - Local vs. remote git repositories
     - GitHub structure: repositories, issues, pull requests, forks
     - Important configurations: *LFS*, *.gitconfig*, settings
@@ -55,7 +58,7 @@ Use the pages below as the student-facing handbook for this module:
     - The GitHub workflow
     - (Optional) Working in another person's repository
     - (Optional) Quiz
-5. **Advanced GitHub usage** (1h30min)
+5. **Advanced GitHub usage** (~1h30min)
     - Ignoring files (*.gitignore*)
     - GitHub actions: automating checks
     - Automated testing
@@ -63,16 +66,6 @@ Use the pages below as the student-facing handbook for this module:
     - Pre-commit hooks
     - Continuous deployment: publishing a documentation site with GitHub Pages
     - (Optional) Quiz
-
-## What is new in this handbook
-
-Compared with the short module outline above, this handbook also adds:
-
-- practical guidance for using Git through VS Code,
-- screenshot placeholders for GitHub pages and workflows that are easier to
-  explain visually,
-- a recovery page for common beginner mistakes such as committing to the wrong
-  branch, handling merge conflicts, or synchronizing with the remote.
 
 <!--
 Estimated Module duration and Sessions:
@@ -83,6 +76,8 @@ Estimated Module duration and Sessions:
 
 In total (1 session/week): 3 weeks + 1 session for participants project = 4 weeks
 -->
+
+You can check the Sessions materials used in RECODE's GitHub page: [Module 2 Session's materials](https://github.com/BAMresearch/RECODE/tree/main/docs/module2-git_and_github_for_version_control).
 
 ## Participants' projects
 

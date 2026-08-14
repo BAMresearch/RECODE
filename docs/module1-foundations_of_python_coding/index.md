@@ -30,14 +30,14 @@ Use the pages linked below as the student-facing handbook for this module:
 
 ## Sections and timing
 
-1. **Quick welcoming to the course and module** (15min)
-2. **Setting up the Python and Development Environment** (1h-1h15min)
+1. **Quick welcoming to the course and module** (~15min)
+2. **Setting up the Python and Development Environment** (~1h-1h15min)
     - Installing VS Code, Python via Miniforge3, and checking GitHub accounts
     - Configuring VS Code for Python development
     - Creating and managing virtual environments (`conda`, `venv`)
     - Jupyter Notebook introduction
     - (Optional) Quiz
-3. **Introduction to Python** (45min)
+3. **Introduction to Python** (~45min)
     - Ways to run Python
     - Variables and naming conventions
     - Basic data types: string, integer, float, boolean, complex
@@ -45,7 +45,7 @@ Use the pages linked below as the student-facing handbook for this module:
     - Functions
     - Module imports
     - (Optional) Quiz
-5. **Core syntax and control flow** (1h30min)
+5. **Core syntax and control flow** (~1h30min)
     - Data structures: lists, tuples, sets, dictionaries
     - Conditional statements (`if` / `elif` / `else`)
     - Iteration (`for` and `while` loops)
@@ -53,7 +53,7 @@ Use the pages linked below as the student-facing handbook for this module:
     - Recursion
     - Error and exception handling
     - (Optional) Quiz
-6. **Working with Files and Data** (1h30min)
+6. **Working with Files and Data** (~1h30min)
     - Basic input/output (I/O) file operations: text, CSV, and JSON
     - Numerical arrays and vectorized operations (`numpy`)
     - Visualizing data (`matplotlib`)
@@ -61,7 +61,7 @@ Use the pages linked below as the student-facing handbook for this module:
     - Managing file paths (`os`, `pathlib`)
     - (Optional) Numerical methods in Python (`scipy`)
     - (Optional) Quiz
-7. **Code Quality** (45min)
+7. **Code Quality** (~45min)
     - Reproducible research code
     - Python style conventions (PEP 8)
     - Writing clear docstrings and comments
@@ -69,13 +69,13 @@ Use the pages linked below as the student-facing handbook for this module:
     - Basic logging and informative error messages
     - Introduction to testing
     - (Optional) Quiz
-8. **Introduction to Object-Oriented Programming (OOP)** (1h30min)
+8. **Introduction to Object-Oriented Programming (OOP)** (~1h30min)
     - Classes, attributes, and methods
     - Abstraction
     - Naming conventions and design
     - SOLID principles vs. functional programming
     - (Optional) Quiz
-9. **Teaser to Project Organization** (30min)
+9. **Teaser to Project Organization** (~30min)
     - Recommended folder structure
     - Introduction to templates
     - Naming and modularization

@@ -1,4 +1,4 @@
-# Module 3 - Using Large Language Models (LLMs) for Coding Assistance
+# Module 3 &mdash; Using Large Language Models (LLMs) for Coding Assistance
 
 
 !!! warning "Work in progress"

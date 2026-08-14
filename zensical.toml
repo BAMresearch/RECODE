@@ -19,7 +19,6 @@ nav = [
   ]},
   { "Module 2 - Git and GitHub for Version Control" = [
     "module2-git_and_github_for_version_control/index.md",
-    "module2-git_and_github_for_version_control/study-guide.md",
     "module2-git_and_github_for_version_control/version-control-foundations.md",
     "module2-git_and_github_for_version_control/local-git-basics.md",
     "module2-git_and_github_for_version_control/github-collaboration.md",
