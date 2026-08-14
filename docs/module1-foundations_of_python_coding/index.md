@@ -1,28 +1,25 @@
-# Module 1 - Foundations of Python Coding
+# Module 1 &mdash; Foundations of Python Coding
 
-This module introduces the essential concepts of Python programming and the
-foundational practices needed for scientific software development.
-Participants learn how to set up a working environment, write clear Python
-code, use notebooks and scripts, process data, and organize small projects in a
-way that can grow later.
+This module introduces the essential concepts of Python programming and the foundational practices needed for scientific software development. Participants learn how to set up a working environment, write clear Python code, use notebooks and scripts, process data, and organize small projects in a way that can grow later.
+
+Module 1 is the practical foundation for the rest of RECODE. If later modules teach collaboration, AI-assisted development, or packaging, this module builds the base you need first: a working Python environment, confidence with core language features, and a first set of habits for writing maintainable code.
 
 ## Learning outcomes
 
 By the end of this module, participants will be able to:
 
 - Set up a working Python environment using Miniforge3 and VS Code.
+- Manage dependencies in virtual environments with `conda`, `venv`, and `pip`.
 - Understand and use Python syntax, data structures, and control flow.
 - Write and execute simple scripts and notebooks.
 - Use core scientific libraries such as NumPy, pandas, and matplotlib.
 - Follow basic best practices for readability, reproducibility, and structure.
 - Apply introductory object-oriented programming concepts.
-- Manage dependencies in virtual environments with `conda`, `venv`, and `pip`.
 
 ## Study pages
 
 Use the pages linked below as the student-facing handbook for this module:
 
-- [Module 1 study guide](study-guide.md)
 - [Getting ready: Python environment and tools](getting-ready.md)
 - [Python basics](python-basics.md)
 - [Control flow and data structures](control-flow-and-data-structures.md)
@@ -97,8 +94,8 @@ Estimated Module duration and Sessions:
 In total (1 session/week): 6 weeks + 1 session for participants project = 7 weeks
 -->
 
+You can check the Sessions materials used in RECODE's GitHub page: [Module 1 Session's materials](https://github.com/BAMresearch/RECODE/tree/main/docs/module1-foundations_of_python_coding).
+
 ## Participants' projects
 
-After the last session, we will organize an additional 2-hour session for all
-participants. The goal is to give everyone uninterrupted time to work on their
-own projects with support from experts and peers.
+After the last session, we will organize an additional 2-hour session for all participants. The goal is to give everyone uninterrupted time to work on their own projects with support from experts and peers.

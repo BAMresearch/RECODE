@@ -9,7 +9,6 @@ nav = [
   { "Get started" = "index.md" },
   { "Module 1 - Foundations of Python coding" = [
     "module1-foundations_of_python_coding/index.md",
-    "module1-foundations_of_python_coding/study-guide.md",
     "module1-foundations_of_python_coding/getting-ready.md",
     "module1-foundations_of_python_coding/python-basics.md",
     "module1-foundations_of_python_coding/control-flow-and-data-structures.md",
@@ -34,6 +33,10 @@ nav = [
   { "Module 4 - Packaging and Distributing Python Projects" = [
     "module4-packaging_and_distributing_python_projects/index.md",
   ]},
+]
+
+extra_css = [
+  "stylesheets/extra.css",
 ]
 
 [project.theme]

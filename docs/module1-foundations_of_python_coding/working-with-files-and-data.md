@@ -1,12 +1,10 @@
 # Working with Files and Data
 
-This part of Module 1 connects basic Python syntax with the kind of tasks many
-researchers actually do: finding files, reading data, transforming it, and
-visualizing results.
+This part of Module 1 connects basic Python syntax with the kind of tasks many researchers actually do: finding and reading content inside files, reading data, transforming it, and visualizing results.
 
 ## Files and folders
 
-The notebook material in `module1s5/` starts with a useful question:
+The notebook materials in [`module1s5/`](https://github.com/BAMresearch/RECODE/blob/main/docs/module1-foundations_of_python_coding/module1s5/session_examples.ipynb) and [`module1s6/`](https://github.com/BAMresearch/RECODE/blob/main/docs/module1-foundations_of_python_coding/module1s6/Working%20with%20files%20and%20folders.ipynb) start with a useful question:
 
 > From which folder is this script or notebook running?
 
@@ -35,8 +33,7 @@ csv_files = list(Path.cwd().glob("*.csv"))
 print(csv_files)
 ```
 
-This is a simple but important step toward automation. Instead of opening files
-manually one by one, your code can discover them for you.
+This is a simple but important step toward automation. Instead of opening files manually one by one, your code can discover them for you.
 
 ## Reading and writing common file types
 
@@ -70,8 +67,7 @@ print(df.head())
 
 ## Arrays with NumPy
 
-NumPy is the standard tool for fast numerical arrays and vectorized
-calculations:
+NumPy is the standard tool for fast numerical arrays and vectorized calculations:
 
 ```python
 import numpy as np
@@ -80,8 +76,7 @@ angles = np.linspace(0.01, 5.0, 500)
 values = np.sin(angles)
 ```
 
-Vectorized code is one of Python's biggest strengths in scientific workflows:
-you can apply one operation to many values at once.
+Vectorized code is one of Python's biggest strengths in scientific workflows: you can apply one operation to many values at once.
 
 ## Plotting with matplotlib
 
@@ -97,8 +92,7 @@ plt.grid()
 plt.show()
 ```
 
-The introductory notebook in `module1s2/` also uses small plotting examples to
-show how quickly Python can move from values to visual feedback.
+The [introductory notebook in `module1s2/`](https://github.com/BAMresearch/RECODE/blob/main/docs/module1-foundations_of_python_coding/module1s2/Introduce%20JupNB%20interactive%20examples.ipynb) also uses small plotting examples to show how quickly Python can move from values to visual feedback.
 
 ## Structured data with pandas
 
@@ -128,16 +122,14 @@ Typical pandas tasks include:
 
 ## From loading data to modeling
 
-The optional notebook in `module1s5/` goes one step further and shows how
-loaded data can feed into:
+The [optional notebook in `module1s6/`](https://github.com/BAMresearch/RECODE/blob/main/docs/module1-foundations_of_python_coding/module1s6/Plotting%20and%20fitting%20file%20data%20to%20model%20(optional).ipynb) goes one step further and shows how loaded data can feed into:
 
 - computed `Q` vectors,
 - mathematical models,
 - plots on linear or logarithmic scales,
 - parameter fitting with scientific libraries.
 
-That notebook is a good example of how Module 1 begins with basics but already
-points toward realistic scientific coding tasks.
+That notebook is a good example of how Module 1 begins with basics but already points toward realistic scientific coding tasks.
 
 ## Good habits when working with data files
 
