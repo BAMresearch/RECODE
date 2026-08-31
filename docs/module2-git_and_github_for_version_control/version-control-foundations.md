@@ -21,11 +21,46 @@ collaboration.
 Think of Git as a history system for your project:
 
 - a **repository** is the project plus its history,
-- a **commit** is a saved checkpoint,
+- a **commit** is a saved checkpoint, respectively a set of changes,
 - a **branch** is a separate line of work,
 - a **merge** brings changes together,
 - a **tag** marks an important version,
 - a **remote** connects your local repository to a hosted one such as GitHub.
+
+### Example
+
+* the main branch with commits A, B, C, D & E
+* a branch for the feature named 'login' consisting of commits F1, F2 and F3
+* a branch for the hotfix named 'prod' consisting of commit H1
+
+```mermaid
+gitGraph
+   commit id: "A"
+   commit id: "B"
+
+   branch feature/login
+   checkout feature/login
+   commit id: "F1"
+   commit id: "F2"
+
+   checkout main
+   commit id: "C"
+
+   branch hotfix/prod
+   checkout hotfix/prod
+   commit id: "H1"
+
+   checkout main
+   merge hotfix/prod
+   commit id: "D"
+
+   checkout feature/login
+   commit id: "F3"
+
+   checkout main
+   merge feature/login
+   commit id: "E"
+```
 
 ## Local Git vs. GitHub
 
