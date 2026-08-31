@@ -32,20 +32,20 @@ Use the pages below as the student-facing handbook for this module:
 
 ## Sections
 
-1. **Quick welcoming to the module** (15min)
-2. **Introduction to Version Control** (15min)
+1. **Quick welcoming to the module** (15min) - Simon
+2. **Introduction to Version Control** (15min) - Simon
     - What is version control and why developers need it
     - Branches and tracked history
     - Semantic versioning and tagging
     - (Optional) Quiz
-3. **Local Git basics** (1h30min)
+3. **Local Git basics** (1h30min) - Simon
     - Initializing a git project in a local directory
     - Useful commands: *status*, *log*, *branch*, *switch*
     - Best practices for committing changes
     - Adding tags
     - The *.git* history folder
     - (Optional) Quiz
-4. **Collaborating in GitHub** (1h30min)
+4. **Collaborating in GitHub** (1h30min) - José
     - Local vs. remote git repositories
     - GitHub structure: repositories, issues, pull requests, forks
     - Important configurations: *LFS*, *.gitconfig*, settings
@@ -55,7 +55,7 @@ Use the pages below as the student-facing handbook for this module:
     - The GitHub workflow
     - (Optional) Working in another person's repository
     - (Optional) Quiz
-5. **Advanced GitHub usage** (1h30min)
+5. **Advanced GitHub usage** (1h30min) - Ingo
     - Ignoring files (*.gitignore*)
     - GitHub actions: automating checks
     - Automated testing
